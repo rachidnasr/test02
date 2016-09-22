@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* nav styles */
+      nav {
+        padding: 15px;
+        background-color: coral;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      ul li {
+        display: inline-block;
+        margin-right: 30px;
+      }
+
+      ul li a {
+        color: white;
+        font-family: "Courier";
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      ul li a:hover {
+        color: black;
+      }
+
+      /* button styles */
+      .button {
+        display: block;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+        background-color: lightgreen;
+        color: black;
+        font-family: "Courier";
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .button:hover {
+        background-color: coral;
+      }
+
+      /* form styles */
+      input {
+        height: 50px;
+        border: 0;
+        font-family: "Courier";
+        font-size: 25px;
+      }
+
+      input[type="text"] {
+        width: 300px;
+        padding: 0;
+        background-color: coral;
+        color: white;
+      }
+
+      input[type="submit"] {
+        width: 150px;
+        background-color: lightgreen;
+      }
+
+      /* misc styles */
+      .spacer {
+        width: 100%;
+        height: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="spacer"></div>
+
+    <a class="button" href="#">My Button</a>
+
+    <div class="spacer"></div>
+
+    <button>Another Button</button>
+
+    <div class="spacer"></div>
+
+    <form action="http://www.urbanoutfitters.com/urban/catalog/search.jsp" method="GET">
+      <input type="text" name="q">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
